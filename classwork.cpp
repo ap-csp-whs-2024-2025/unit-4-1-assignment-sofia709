@@ -3,14 +3,27 @@
 
 int main()
 {
-  int age=10;
-  double price=19.99;
-  bool isRaining = false;
+int num =5;
+num=10;
 
-  std::cout << age;
-  std:: cout << price;
-  std :: cout << isRaining;
-  endl
+std :: string stu_name = "John";
+std :: string number = "5";
+
+std :: << "My name is"<< stu_name << std :: endl;
+
   
+
+  //Exercise 1
+  int x=25;
+  int y=3;
+
+  std ::cout << "x+y="<< x+y<< std::endl;
+  std :: cout << "x-y=" << x-y << std :: endl;
+  std:: cout << "x*y=" << x*y << std :: endl;
+  std :: cout << "x/y" << x/y << std :: endl;
+  std :: cout << "x%y" << x%y << std :: endl;
+  
+
+
   return 0;
 }
